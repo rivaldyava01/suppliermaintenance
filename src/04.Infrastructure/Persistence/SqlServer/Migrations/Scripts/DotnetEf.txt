@@ -1,0 +1,13 @@
+set ASPNETCORE_ENVIRONMENT=Local
+dotnet tool update --global dotnet-ef
+
+dotnet ef migrations add SqlServerDbContext_001_Initial --context SqlServerDbContext --project src/04.Infrastructure --startup-project src/05.WebApi --output-dir Persistence/SqlServer/Migrations
+
+dotnet ef migrations remove  --context SqlServerDbContext --project src/04.Infrastructure --startup-project src/05.WebApi
+
+dotnet ef database update --context SqlServerDbContext --project src/04.Infrastructure --startup-project src/05.WebApi
+
+dotnet ef database drop --force --context SqlServerDbContext --project src/04.Infrastructure --startup-project src/05.WebApi
+
+dotnet ef database update SqlServerDbContext_001_Initial --context SqlServerDbContext --project src/04.Infrastructure --startup-project src/05.WebApi
+dotnet ef database update SqlServerDbContext_002_Keduax --context SqlServerDbContext --project src/04.Infrastructure --startup-project src/05.WebApi

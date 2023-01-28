@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JIuYVWOyLT2ENRVRBwGfgErEYscu0fYguYurJIVEFX69ncNMAUIl/E8vjZOYNZUSq4/8EyAjZ7r17XcBS3bzGg==",
+  "success": true,
+  "projectFilePath": "D:\\job\\Fujitsu\\SupplierMaintenance\\src\\02.Shared\\02.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

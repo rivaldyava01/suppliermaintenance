@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>SupplierMaintenance.Bsui</RootNamespace>
+	<AssemblyName>SupplierMaintenance.Bsui</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\Supplier.razor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="features\Supplier\Index.razor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\02.Shared\02.Shared.csproj" />
+    <ProjectReference Include="..\06.Client\06.Client.csproj" />
+  </ItemGroup>
+
+</Project>

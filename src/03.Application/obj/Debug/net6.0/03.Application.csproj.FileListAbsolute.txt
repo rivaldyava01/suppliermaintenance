@@ -1,0 +1,17 @@
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\obj\Debug\net6.0\03.Application.csproj.AssemblyReference.cache
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\obj\Debug\net6.0\03.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\obj\Debug\net6.0\03.Application.AssemblyInfoInputs.cache
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\obj\Debug\net6.0\03.Application.AssemblyInfo.cs
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\obj\Debug\net6.0\03.Application.csproj.CoreCompileInputs.cache
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\obj\Debug\net6.0\03.Application.csproj.CopyComplete
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\bin\Debug\net6.0\SupplierMaintenance.Application.deps.json
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\bin\Debug\net6.0\SupplierMaintenance.Application.dll
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\bin\Debug\net6.0\SupplierMaintenance.Application.pdb
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\bin\Debug\net6.0\SupplierMaintenance.Domain.dll
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\bin\Debug\net6.0\SupplierMaintenance.Shared.dll
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\bin\Debug\net6.0\SupplierMaintenance.Domain.pdb
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\bin\Debug\net6.0\SupplierMaintenance.Shared.pdb
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\obj\Debug\net6.0\SupplierMaintenance.Application.dll
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\obj\Debug\net6.0\refint\SupplierMaintenance.Application.dll
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\obj\Debug\net6.0\SupplierMaintenance.Application.pdb
+D:\job\Fujitsu\SupplierMaintenance\src\03.Application\obj\Debug\net6.0\ref\SupplierMaintenance.Application.dll

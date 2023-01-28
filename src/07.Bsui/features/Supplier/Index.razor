@@ -1,0 +1,73 @@
+﻿@page "/supplier"
+@using SupplierMaintenance.Shared.Suppliers.Constants
+@using SupplierMaintenance.Client.Services.BackEnd
+
+@*@inject SupplierService _supplierService
+@inject ProvinceService _provinceService*@
+@*@inject CityService _cityService*@
+
+<h1 style="color:red;">Supplier Maintenance Screen</h1>
+
+<div style="margin-top:2%">
+    <label for="supplierCode">Supplier Code</label>
+    <input type="text" id="supplierCode" name="supplierCode" style="margin-left:6%">
+</div>
+<div style="margin-top:2%">
+  <label for="province">Province</label>
+  <select name="province" id="province" style="margin-left:10%">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
+  <button style="margin-left:60px">Search</button>
+  <button style="margin-left:30px">Clear</button>
+</div>
+
+<div style="margin-top:2%">
+  <label for="city">City</label>
+  <select name="city" id="city" style="margin-left:13%">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
+</div>
+
+<div style="margin-top:2%">
+    <label for="chooseFile">Choose File</label>
+    <input type="file" id="chooseFile" name="chooseFile" style="margin-left:7%">
+    <button style="margin-left:60px">Upload</button>
+  <button style="margin-left:30px">Add</button>
+  <button style="margin-left:30px; display:none;">Edit</button>
+  <button style="margin-left:30px; display:none;">Delete</button>
+</div>
+
+@code{
+    //private readonly List<ProvincesModel> _provinces = new();
+    ////private readonly CreatePurchaseOrderModel _model = new();
+
+    //protected async Task ReloadProvice()
+    //{
+    //    var responseResult = await _provinceService.GetListProvincesAsync();
+
+    //    if (responseResult.Result is not null)
+    //    {
+    //        foreach (var province in responseResult.Result.Items)
+    //        {
+    //            _provinces.Add(new ProvincesModel
+    //                {
+    //                    Id = province.Id,
+    //                    Name = province.Name
+    //                });
+    //        }
+
+    //    }
+    //}
+
+    //public class ProvincesModel
+    //{
+    //    public Guid Id { get; set; }
+    //    public string Name { get; set; } = default!;
+    //}
+    }

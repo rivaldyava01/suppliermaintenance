@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lM78fAdD5vf0YMlu9j+j+nNwHrERxIXdOwdeI736wDM=",
+  "Source": "SupplierMaintenance.WebApi",
+  "BasePath": "_content/SupplierMaintenance.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
